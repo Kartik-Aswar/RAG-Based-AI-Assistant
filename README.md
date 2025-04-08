@@ -30,6 +30,7 @@ Open-source implementation of a robust Retrieval-Augmented Generation (RAG) syst
 ```bash
 git clone https://github.com/Kartik-Aswar/RAG-Based-AI-Assistant.git
 cd RAG-Based-AI-Assistant
+
 ```bash
 
 ## Configuration
