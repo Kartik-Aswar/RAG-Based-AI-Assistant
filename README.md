@@ -23,6 +23,7 @@ The output is consized with max output of 3 lines in sentence as it is defined i
   - Groq (https://console.groq.com/)
   - LangChain (https://smith.langchain.com/)
   - Tavily (hardcoded trial key if required then change it)
+  - HuggingFace(https://huggingface.co/settings/tokens)
 
 ## ⚙️ Installation & Setup
 
