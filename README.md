@@ -65,9 +65,18 @@ python Assistant_rag.py
 - Fallback to web search when needed
 - Retry with improved queries
 
+## Project Structure:
+![image](https://github.com/user-attachments/assets/a2dfe020-f8fc-4ed8-944b-5fa44202e762)
 
+## Key Technologies
+- LangChain: Orchestration framework
+- Groq: High-performance LLM inference
+- HuggingFace Embeddings: Text vectorization
+- FAISS: Vector similarity search
+- Tavily: Web search API
 
-
-
+## Future Improvements:
+- Add Streamlit web interface for better UX.
+- Support for multiple file uploads and document types (PDF, DOCX).
 
   
