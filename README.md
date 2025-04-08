@@ -30,8 +30,12 @@ Open-source implementation of a robust Retrieval-Augmented Generation (RAG) syst
 ```bash
 git clone https://github.com/Kartik-Aswar/RAG-Based-AI-Assistant.git
 cd RAG-Based-AI-Assistant
+```
 
+## Install dependencies:
 ```bash
+pip install -r requirements.txt
+```
 
 ## Configuration
 Create .env file with your API keys:
@@ -44,18 +48,25 @@ HF_TOKEN=your hugging face token
 
 ## Usage
 
-python your_script_name.py
-Enter URLs separated by commas when prompted
+Run the assistant:
 
-Ask questions about the content
+```bash
+python Assistant_rag.py
+```
 
-System will automatically:
+1.Enter URLs separated by commas when prompted
 
-Retrieve relevant documents
+2.Ask questions about the content
 
-Verify answer quality
+3.System will automatically:
+- Retrieve relevant documents
+- Verify answer quality
+- Fallback to web search when needed
+- Retry with improved queries
 
-Fallback to web search when needed
+
+
+
 
 Retry with improved queries
   
