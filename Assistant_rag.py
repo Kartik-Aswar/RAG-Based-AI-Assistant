@@ -496,7 +496,7 @@ except Exception:
 
 from pprint import pprint
 
-user_input = input("enter what you want to search from the document : ")
+user_input = input("enter what you want to search : ")
 
 # Run
 inputs = {
