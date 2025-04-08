@@ -40,11 +40,11 @@ pip install -r requirements.txt
 ## Configuration
 Create .env file with your API keys:
 
-GROQ_API_KEY=your_groq_key
-LANGCHAIN_API_KEY=your_langchain_key
-groq_track=your_groq_track_key
-TAVILY_API_KEY=your_tavily_key
-HF_TOKEN=your hugging face token
+- GROQ_API_KEY=your_groq_key
+- LANGCHAIN_API_KEY=your_langchain_key
+- groq_track=your_groq_track_key
+- TAVILY_API_KEY=your_tavily_key
+- HF_TOKEN=your hugging face token
 
 ## Usage
 
@@ -68,5 +68,5 @@ python Assistant_rag.py
 
 
 
-Retry with improved queries
+
   
