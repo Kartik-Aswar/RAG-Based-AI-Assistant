@@ -1,6 +1,7 @@
 # RAG Pipeline with Dynamic Routing and Quality Control
 
-Open-source implementation of a robust Retrieval-Augmented Generation (RAG) system with automatic routing between vector store and web search. Features quality control checks for document relevance, answer grounding, and safety mechanisms to prevent infinite looping through:
+Open-source implementation of a robust Retrieval-Augmented Generation (RAG) system with automatic routing between vector store and web search. Features quality control checks for document relevance, answer grounding, and safety mechanisms to prevent infinite looping through.
+The output is consized with max output of 3 lines in sentence as it is defined in ChatPromptTemplate (if required can be changed by removing prompt = hub.pull("rlm/rag-prompt") and add custom PromptTemplate):
 - Retry limit enforcement (max 3 attempts)
 - Fallback to graceful exit after failed retrievals
 - Systematic query transformation safeguards
