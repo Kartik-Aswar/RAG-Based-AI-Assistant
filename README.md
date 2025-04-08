@@ -22,5 +22,38 @@ Open-source implementation of a robust Retrieval-Augmented Generation (RAG) syst
   - Groq (https://console.groq.com/)
   - LangChain (https://smith.langchain.com/)
   - Tavily (hardcoded trial key if required then change it)
-    
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Kartik-Aswar/RAG-Based-AI-Assistant.git
+cd RAG-Based-AI-Assistant
+
+## Configuration
+Create .env file with your API keys:
+
+GROQ_API_KEY=your_groq_key
+LANGCHAIN_API_KEY=your_langchain_key
+groq_track=your_groq_track_key
+TAVILY_API_KEY=your_tavily_key
+HF_TOKEN=your hugging face token
+
+## Usage
+
+python your_script_name.py
+Enter URLs separated by commas when prompted
+
+Ask questions about the content
+
+System will automatically:
+
+Retrieve relevant documents
+
+Verify answer quality
+
+Fallback to web search when needed
+
+Retry with improved queries
   
