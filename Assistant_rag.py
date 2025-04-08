@@ -374,7 +374,7 @@ def decide_to_generate(state):
     print("---ASSESS GRADED DOCUMENTS---")
     retry_count = state.get("retry_count", 0)
 
-    if retry_count >= 2:
+    if retry_count >= 3:
         print("---RETRY LIMIT REACHED, EXITING---")
         return "give_up"
     
